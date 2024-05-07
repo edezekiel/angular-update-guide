@@ -15,7 +15,7 @@
             "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",
             "optimization": false,
-            "polyfills": "src/polyfills.ts",
+            "polyfills": "zone.js",
             "assets": [
               {
                 "glob": "**/*",
@@ -78,7 +78,7 @@
           "options": {
             "main": "src/test.ts",
             "karmaConfig": "./karma.conf.js",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": "zone.js",
             "tsConfig": "src/tsconfig.spec.json",
             "scripts": [],
             "styles": ["src/styles.css"],
